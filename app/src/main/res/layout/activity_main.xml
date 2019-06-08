@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242323"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/flashLightButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/flash_off"/>
+
+    <ImageView
+        android:id="@+id/myChannel_Please_subscribe_my_channel"
+        android:layout_below="@+id/flashLightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/subscribe_ic"/>
+
+</RelativeLayout>
